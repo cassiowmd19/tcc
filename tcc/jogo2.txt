@@ -1,0 +1,6 @@
+Tristeza 09/02/2023 0 Nojo
+Raiva 12/02/2023 100 Raiva
+Nojo 12/02/2023 100 Nojo
+Tristeza 12/02/2023 0 Surpresa
+Felicidade 12/02/2023 100 Felicidade
+Tristeza 27/02/2023 0 Nojo

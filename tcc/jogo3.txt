@@ -1,0 +1,6 @@
+Nojo 27/02/2023 0 Surpresa
+Surpresa 27/02/2023 0 Medo
+Raiva 27/02/2023 0 Surpresa
+Felicidade 27/02/2023 100 Felicidade
+Nojo 27/02/2023 70 Nojo
+Surpresa 27/02/2023 70 Surpresa
