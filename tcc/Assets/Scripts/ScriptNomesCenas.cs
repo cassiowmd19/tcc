@@ -21,7 +21,7 @@ public class ScriptNomesCenas : MonoBehaviour
     private ScriptVideos Tela_select_name, Tela_ola, Btn_Nojo, Btn_Raiva, Btn_Medo, Btn_Tristeza, Btn_Felicidade, Btn_Surpresa, Btn_Voltar;
     private TextMeshProUGUI Ret_nome;
     private string nome = "";
-    string ArquivoNome =  @"C:\Users\Cassio\Documents\TCC\My project\Nome.txt";
+    string ArquivoNome =  @"C:\Users\Cassio\Documents\TCC\tcc\Nome.txt";
 
     public void RunNome(){
         Ret_nome = ret_nome.GetComponent<TextMeshProUGUI>();

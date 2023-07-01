@@ -8,27 +8,27 @@ public class Cores : MonoBehaviour
     [SerializeField]private Material myMaterial;
 
     public void SetCoresRaiva(){
-        myMaterial.color = new Color32(222,6,131,255);
+        myMaterial.color = new Color32(255,84,62,255);
     }
 
     public void SetCoresNojo(){
-        myMaterial.color = new Color32(147,44,155,255);
+        myMaterial.color = new Color32(162,132,195,255);
     }
 
     public void SetCoresMedo(){
-        myMaterial.color = new Color32(149,209,38,255);
+        myMaterial.color = new Color32(0,152,63,255);
     }
 
     public void SetCoresTristeza(){
-        myMaterial.color = new Color32(94,194,239,255);
+        myMaterial.color = new Color32(93,154,219,255);
     }
 
     public void SetCoresFelicidade(){
-        myMaterial.color = new Color32(236,237,20,255);
+        myMaterial.color = new Color32(255,215,88,255);
     }
 
     public void SetCoresSurpresa(){
-        myMaterial.color = new Color32(95,198,120,255);
+        myMaterial.color = new Color32(175,214,244,255);
     }
 
     public void SetCoresNeutro(){

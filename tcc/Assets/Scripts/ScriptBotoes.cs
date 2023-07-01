@@ -86,38 +86,38 @@ public class ScriptBotoes : MonoBehaviour
    { 
       if(texto.text == "Nojo")
      {
-          btn.GetComponent<Image>().color = new Color32(147,44,155,255);
+          btn.GetComponent<Image>().color = new Color32(162,132,195,255);
           texto.enabled = false;
 
      }
      else if(texto.text == "Raiva")
      {
-          btn.GetComponent<Image>().color = new Color32(222,6,131,255);
+          btn.GetComponent<Image>().color = new Color32(255,84,62,255);
           texto.enabled = false;
      }
 
      else if(texto.text == "Medo")
      {
-          btn.GetComponent<Image>().color = new Color32(149,209,38,255);
+          btn.GetComponent<Image>().color = new Color32(0,152,63,255);
           texto.enabled = false;
      } 
 
      else if(texto.text == "Tristeza")
      {
-          btn.GetComponent<Image>().color = new Color32(94,194,239,255);
-           texto.enabled = false;
+          btn.GetComponent<Image>().color = new Color32(93,154,219,255);
+          texto.enabled = false;
      } 
 
      else if(texto.text == "Felicidade")
      {
-          btn.GetComponent<Image>().color = new Color32(236,237,20,255);
-           texto.enabled = false;
+          btn.GetComponent<Image>().color = new Color32(255,215,88,255);
+          texto.enabled = false;
      } 
 
      else if(texto.text == "Surpresa")
      {
-          btn.GetComponent<Image>().color = new Color32(95,198,120,255);
-           texto.enabled = false;
+          btn.GetComponent<Image>().color = new Color32(175,214,244,255);
+          texto.enabled = false;
      }      
 
    }
