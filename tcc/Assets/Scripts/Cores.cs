@@ -34,5 +34,33 @@ public class Cores : MonoBehaviour
     public void SetCoresNeutro(){
         myMaterial.color = new Color32(255,255,255,255);
     }
+
+    public void SetCor(string emocao){
+        switch (emocao){
+            case "Felicidade":
+            SetCoresFelicidade();
+            break;
+
+            case "Tristeza":
+            SetCoresTristeza();
+            break;
+
+            case "Medo":
+            SetCoresMedo();
+            break;
+
+            case "Surpresa":
+            SetCoresSurpresa();
+            break;
+
+            case "Raiva":
+            SetCoresRaiva();
+            break;
+
+            case "Nojo":
+            SetCoresNojo();
+            break;
+        }
+    }    
     
 }

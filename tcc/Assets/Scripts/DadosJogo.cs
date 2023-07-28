@@ -37,9 +37,9 @@ public class DadosJogo : MonoBehaviour
     private ScriptNomesCenas Cenas;
     public int[] geradorRosto, erros;
     private int percent = 120;
-    string ArquivoJogo1 =  @"C:\Users\Cassio\Documents\TCC\tcc\jogo1.txt";
-    string ArquivoJogo2 =  @"C:\Users\Cassio\Documents\TCC\tcc\jogo2.txt";
-    string ArquivoJogo3 =  @"C:\Users\Cassio\Documents\TCC\tcc\jogo3.txt";
+    string ArquivoJogo1 =  Path.Combine("jogo1.txt");
+    string ArquivoJogo2 =  Path.Combine("jogo2.txt");
+    string ArquivoJogo3 =  Path.Combine("jogo3.txt");
     public int total;
     private int peso = 10;
 

@@ -85,3 +85,7 @@ Tristeza 16/05/2023 100 Tristeza
 Raiva 16/05/2023 100 Raiva
 Surpresa 16/05/2023 70 Surpresa
 Medo 01/07/2023 0 Surpresa
+Tristeza 27/07/2023 100 Tristeza
+Surpresa 27/07/2023 85 Surpresa
+Nojo 27/07/2023 0 Felicidade
+Nojo 27/07/2023 0 Medo

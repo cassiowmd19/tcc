@@ -337,8 +337,10 @@ public class ScriptJogo : MonoBehaviour
 
         await Task.Delay(3000);
         SetTransicaoEmocao(emocao);
+        Cor.SetCor(emocao);
         await Task.Delay(4000);
         SetTransicaoNeutro(emocao);
+        Cor.SetCoresNeutro();
 
         if(tipo_jogo == 1)
             {
@@ -468,7 +470,7 @@ public class ScriptJogo : MonoBehaviour
     public void SetTelaInterna(string z){
         rand = ran.Next(1,20);
         
-        string filePath = @$"C:\Users\Cassio\Documents\TCC\tcc\Emocoes\{z}\{z}_ ({rand}).png";
+        string filePath = Path.Combine("Emocoes", z, $"{z}_ ({rand}).png");
         byte[] imageData = File.ReadAllBytes(filePath);
         Texture2D texture = new Texture2D(2, 2);
         texture.LoadImage(imageData);

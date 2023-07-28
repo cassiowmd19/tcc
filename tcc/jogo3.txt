@@ -53,3 +53,5 @@ Nojo 01/07/2023 95 Nojo
 Surpresa 01/07/2023 0 Raiva
 Surpresa 01/07/2023 100 Surpresa
 Raiva 01/07/2023 0 Felicidade
+Surpresa 27/07/2023 100 Surpresa
+Felicidade 27/07/2023 0 Tristeza
