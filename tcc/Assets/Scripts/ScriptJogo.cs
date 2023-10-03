@@ -468,9 +468,9 @@ public class ScriptJogo : MonoBehaviour
     }
 
     public void SetTelaInterna(string z){
-        rand = ran.Next(1,20);
+        rand = ran.Next(1,67);
         
-        string filePath = Path.Combine("Emocoes", z, $"{z}_ ({rand}).png");
+        string filePath = Path.Combine("Emocoes", z, $"{z}_ ({rand}).jpg");
         byte[] imageData = File.ReadAllBytes(filePath);
         Texture2D texture = new Texture2D(2, 2);
         texture.LoadImage(imageData);
